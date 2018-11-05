@@ -6,7 +6,7 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route": "serverless/{name}",
+      "route": "serverless/{*name}",
       "methods": [
         "get",
         "post"
